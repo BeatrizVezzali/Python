@@ -24,7 +24,7 @@ for cont in range(1,10):
                 menor = alturaH
                 
 
-media = somaM // (10 - cont)
+media = somaM / (10 - cont)
 
 print("A média de mulheres é:", media)
 

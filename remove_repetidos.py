@@ -4,7 +4,7 @@ def remove_repetidos(lista):
     lista1 = []
     for i in lista:
         if (i not in lista1):
-            lista1.append(elemento)
+            lista1.append(i)
     lista1.sort()
     return lista1
 

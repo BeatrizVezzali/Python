@@ -3,7 +3,7 @@ numDigitado = int(input("Digite um número inteiro:"))
 
 while (numDigitado != 0):
     numInverso.append(numDigitado)
-    numDigitado = int(input("Digite outro número inteiro:"))
+    numDigitado = int(input("Digite um número inteiro:"))
 
 tam = len(numInverso)-1
 
